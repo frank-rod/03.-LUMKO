@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -i -E '\\\\.\\(gif|png|jpg|svg|webp\\)$')",
+      "Bash(mv personal.json Media/personal.json)",
+      "Bash(mv restaurante.json Media/Restaurante.json)",
+      "Bash(mv events.json Media/events.json)",
+      "Bash(mv ecommerce.json Media/ecommerce.json)",
+      "Bash(python3 -c 'import json; json.load\\(open\\('\\\\''__TRACKED_VAR__'\\\\''\\)\\); print\\('\\\\''__TRACKED_VAR__: OK'\\\\''\\)')",
+      "Bash(python3 -c 'import json; d=json.load\\(open\\('\\\\''__TRACKED_VAR__'\\\\''\\)\\); print\\(d.get\\('\\\\''v'\\\\'','\\\\''?'\\\\''\\), '\\\\''layers:'\\\\'', len\\(d.get\\('\\\\''layers'\\\\'',[]\\)\\), '\\\\''w:'\\\\'', d.get\\('\\\\''w'\\\\''\\), '\\\\''h:'\\\\'', d.get\\('\\\\''h'\\\\''\\)\\)')",
+      "Bash(python3 -m http.server 8080)",
+      "Bash(echo \"PID: $!\")",
+      "Bash(kill 6010)",
+      "Bash(python3 -m http.server 8090)",
+      "Bash(ls \"/Users/frank/Desktop/Webs/03. LUMKO/\"*.json)",
+      "Bash(ls \"/Users/frank/Desktop/Webs/03. LUMKO/Media/\"*.json)",
+      "Bash(rm Media/business.json Media/ecommerce.json Media/events.json Media/personal.json Media/Restaurante.json)",
+      "Bash(mv business.json Media/business.json)",
+      "Bash(mv restaurants.json Media/Restaurante.json)"
+    ]
+  }
+}

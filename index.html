@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMKO — Webs que Convierten</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+
+  <!-- HERO WRAPPER -->
+  <div class="hero-wrapper">
+    <video autoplay loop muted playsinline class="hero-video">
+      <source src="Media/VideoHero.mp4" type="video/mp4">
+    </video>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+      <a href="#" class="navbar__logo">
+        <img src="Media/logolargoparafondososcuros.PNG" alt="LUMKO">
+      </a>
+
+      <ul class="navbar__links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#paquetes">Paquetes Web</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#faqs">FAQs</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+
+      <button class="navbar__burger" id="burger" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#paquetes">Paquetes Web</a>
+      <a href="#portafolio">Portafolio</a>
+      <a href="#faqs">FAQs</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+
+    <!-- HERO CONTENT -->
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="title-top">Diseño web.</span>
+        <span class="title-middle">
+          Rápido. Efectivo.
+          <svg class="sparkle sparkle-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C12 0 12 9.5 24 12C24 12 13 12.5 12 24C12 24 11 12.5 0 12C0 12 12 9.5 12 0Z" fill="#00e5c7"/></svg>
+          <svg class="sparkle sparkle-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C12 0 12 9.5 24 12C24 12 13 12.5 12 24C12 24 11 12.5 0 12C0 12 12 9.5 12 0Z" fill="#00e5c7"/></svg>
+        </span>
+        <span class="title-bottom">A tu medida.</span>
+      </h1>
+      <p class="hero-subtitle">Diseñamos soluciones digitales que conectan marcas con su audiencia.</p>
+      <a href="#contacto" class="btn-primary">Inicia tu proyecto</a>
+    </div>
+
+  </div><!-- /hero-wrapper -->
+
+  <!-- PAQUETES WEB -->
+  <section class="paquetes" id="paquetes">
+    <span class="paquetes__bg-text" aria-hidden="true">PRODUCTOS</span>
+    <div class="paquetes__grid">
+      <div class="paquete-card">
+        <lottie-player src="Media/personal.json" background="transparent" speed="1" class="paquete-card__icon" loop autoplay></lottie-player>
+        <h3 class="paquete-card__nombre">Personal</h3>
+      </div>
+      <div class="paquete-card">
+        <lottie-player src="Media/business.json" background="transparent" speed="1" class="paquete-card__icon" loop autoplay></lottie-player>
+        <h3 class="paquete-card__nombre">Business</h3>
+      </div>
+      <div class="paquete-card">
+        <lottie-player src="Media/Restaurante.json" background="transparent" speed="1" class="paquete-card__icon" loop autoplay></lottie-player>
+        <h3 class="paquete-card__nombre">Restaurantes</h3>
+      </div>
+      <div class="paquete-card">
+        <lottie-player src="Media/events.json" background="transparent" speed="1" class="paquete-card__icon" loop autoplay></lottie-player>
+        <h3 class="paquete-card__nombre">Bodas / Eventos</h3>
+      </div>
+      <div class="paquete-card">
+        <lottie-player src="Media/ecommerce.json" background="transparent" speed="1" class="paquete-card__icon" loop autoplay></lottie-player>
+        <h3 class="paquete-card__nombre">E-Commerce</h3>
+      </div>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
