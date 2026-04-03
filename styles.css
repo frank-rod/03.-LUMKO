@@ -156,7 +156,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 12px 32px;
-  background: #d9f1f0;
+  background: #7dd3cc;
   color: #031420;
   text-decoration: none;
   font-weight: 500;
@@ -219,7 +219,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 180px;
+  min-height: 540px;
   transition: border-color 0.3s ease, background 0.3s ease;
   cursor: pointer;
 }
@@ -260,16 +260,14 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 72px;
-  height: 72px;
+  height: 94px;
   background: transparent;
-  transition: background 0.4s ease, box-shadow 0.4s ease, backdrop-filter 0.4s ease;
+  transition: background 0.4s ease, box-shadow 0.4s ease;
 }
 
 .navbar:hover,
 .navbar.scrolled {
   background: #031521;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
   box-shadow: 0 2px 24px rgba(0, 0, 0, 0.2);
 }
 
@@ -536,7 +534,7 @@ body {
 
   .navbar {
     padding: 0 16px;
-    height: 64px;
+    height: 84px;
   }
 
   .navbar__logo img {
